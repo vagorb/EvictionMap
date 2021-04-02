@@ -1,4 +1,5 @@
-#Solution
+# Solution
+
 In my solution I decided to use ConcurrentHashMaps and Timer. Main reason for choosing them was thread safety.
 It contains 2 public methods(get and put), one private TimerInitializer and constructor.
 It is needed to provide time (long) of delay before removing value from Map for constructor initialization.
